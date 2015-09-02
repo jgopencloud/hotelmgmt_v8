@@ -675,7 +675,9 @@ class room_reservation_summary(models.Model):
                             if reservline_ids:
                                 room_list_stats.append({'state': 'Reserved',
                                                         'date': chk_date,
-                                                        'room_id': room.id})
+                                                        'room_id': room.id,
+                                                        'hospede': room_res_line.reservation_id.partner_id.name
+                                                        })
                                 break
                             else:
                                 room_list_stats.append({'state': 'Free',

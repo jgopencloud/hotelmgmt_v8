@@ -1,4 +1,9 @@
 
+.showme
+{ 
+	display: none;
+}
+
 .table_header
 {
 	text-align: center;
@@ -14,6 +19,12 @@
 	min-width:100px;
 	vertical-align: middle;
 }
+
+.table_reserved:hover .showme{
+	display : block;
+}
+
+
 .table_free
 {
 	background-color: green;
@@ -23,3 +34,6 @@
 	vertical-align: middle;
 	cursor:pointer;
 }
+
+
+

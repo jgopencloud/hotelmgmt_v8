@@ -1,0 +1,1041 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* hotel_restaurant
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0-20150309\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-28 12:39+0000\n"
+"PO-Revision-Date: 2015-08-28 12:39+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "---------------------------------------------------------------------\n"
+"                                -------------------------------------------------------------------------------------------------------------"
+msgstr "---------------------------------------------------------------------\n"
+"                                -------------------------------------------------------------------------------------------------------------"
+
+#. module: hotel_restaurant
+#: field:hotel.restaurant.reservation,partner_address_id:0
+msgid "Address"
+msgstr "Endereço"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_hotel_menucard_type
+msgid "Amenities Type"
+msgstr "Tipo de Amenidades"
+
+#. module: hotel_restaurant
+#: view:folio.rest.reservation:hotel_restaurant.view_folio_rest_reservation
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_form
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_form
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_search
+#: view:wizard.hotel.restaurant:hotel_restaurant.wizard_hotel_restaurant_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: hotel_restaurant
+#: selection:hotel.restaurant.order,state:0
+#: selection:hotel.restaurant.reservation,state:0
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.tables:hotel_restaurant.view_hotel_restaurant_tables_search
+#: field:hotel.restaurant.tables,capacity:0
+msgid "Capacity"
+msgstr "Capacidade"
+
+#. module: hotel_restaurant
+#: field:hotel.menucard.type,menu_id:0
+msgid "Category"
+msgstr "Categoria"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.hotel_manucard_kanban_view
+msgid "Category:"
+msgstr "Categoria:"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_search_new
+msgid "Categoty"
+msgstr "Categoria"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "CheckIN"
+msgstr "CheckIN"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "CheckOut"
+msgstr "CheckOut"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_form
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_search
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: hotel_restaurant
+#: selection:hotel.restaurant.reservation,state:0
+msgid "Confirmed"
+msgstr "Confirmado"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_form
+msgid "Create Order"
+msgstr "Criar Pedido"
+
+#. module: hotel_restaurant
+#: field:folio.rest.reservation,create_uid:0
+#: field:hotel.menucard,create_uid:0
+#: field:hotel.menucard.type,create_uid:0
+#: field:hotel.reservation.order,create_uid:0
+#: field:hotel.restaurant.kitchen.order.tickets,create_uid:0
+#: field:hotel.restaurant.order,create_uid:0
+#: field:hotel.restaurant.order.list,create_uid:0
+#: field:hotel.restaurant.reservation,create_uid:0
+#: field:hotel.restaurant.tables,create_uid:0
+#: field:wizard.hotel.restaurant,create_uid:0
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: hotel_restaurant
+#: field:folio.rest.reservation,create_date:0
+#: field:hotel.menucard,create_date:0
+#: field:hotel.menucard.type,create_date:0
+#: field:hotel.reservation.order,create_date:0
+#: field:hotel.restaurant.kitchen.order.tickets,create_date:0
+#: field:hotel.restaurant.order,create_date:0
+#: field:hotel.restaurant.order.list,create_date:0
+#: field:hotel.restaurant.reservation,create_date:0
+#: field:hotel.restaurant.tables,create_date:0
+#: field:wizard.hotel.restaurant,create_date:0
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_search
+msgid "Current Booking"
+msgstr "Reserva Atual"
+
+#. module: hotel_restaurant
+#: model:ir.actions.report.xml,name:hotel_restaurant.report_hotel_res_order_bill
+#: model:ir.actions.report.xml,name:hotel_restaurant.report_hotel_reservation_order_bill
+msgid "Customer Bill"
+msgstr "Conta do Cliente"
+
+#. module: hotel_restaurant
+#: field:hotel.restaurant.order,cname:0
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_search
+#: field:hotel.restaurant.reservation,cname:0
+#: view:website:hotel_restaurant.report_res_table
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "Customer Name"
+msgstr "Nome do Cliente"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_order_bill
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "Customer Name :"
+msgstr "Nome do Cliente :"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_order_bill
+#: view:website:hotel_restaurant.report_res_order_bill
+msgid "Customer Order Bill"
+msgstr "Conta do Pedido do Cliente"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_form
+msgid "Customer Taxes"
+msgstr "Impostos do Cliente"
+
+#. module: hotel_restaurant
+#: view:hotel.reservation.order:hotel_restaurant.view_hotel_reservation_order_search
+#: field:hotel.reservation.order,date1:0
+#: view:hotel.restaurant.kitchen.order.tickets:hotel_restaurant.view_hotel_restaurant_kitchen_order_search
+#: field:hotel.restaurant.kitchen.order.tickets,kot_date:0
+#: view:website:hotel_restaurant.report_hotel_order_kot
+#: view:website:hotel_restaurant.report_res_order_bill
+msgid "Date"
+msgstr "Data"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_order_bill
+msgid "Date :"
+msgstr "Data :"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_form
+msgid "Description"
+msgstr "Descrição"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_form
+msgid "Descriptions"
+msgstr "Descrições"
+
+#. module: hotel_restaurant
+#: view:hotel.reservation.order:hotel_restaurant.view_hotel_reservation_order_form
+#: selection:hotel.reservation.order,state:0
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_form
+#: selection:hotel.restaurant.order,state:0
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_form
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_search
+#: selection:hotel.restaurant.reservation,state:0
+msgid "Done"
+msgstr "Concluído"
+
+#. module: hotel_restaurant
+#: selection:hotel.reservation.order,state:0
+#: selection:hotel.restaurant.order,state:0
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_search
+#: selection:hotel.restaurant.reservation,state:0
+msgid "Draft"
+msgstr "Rascunho"
+
+#. module: hotel_restaurant
+#: field:folio.rest.reservation,date_end:0
+#: view:website:hotel_restaurant.report_res_table
+#: field:wizard.hotel.restaurant,date_end:0
+msgid "End Date"
+msgstr "Data de Fim"
+
+#. module: hotel_restaurant
+#: field:hotel.restaurant.reservation,end_date:0
+msgid "End Time"
+msgstr "Tempo Final"
+
+#. module: hotel_restaurant
+#: field:hotel.reservation.order,folio_id:0
+#: field:hotel.restaurant.order,folio_id:0
+#: field:hotel.restaurant.reservation,folio_id:0
+msgid "Folio No"
+msgstr "Ficha de Cliente No"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "Folio No."
+msgstr "Ficha de Cliente No."
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_order_bill
+#: view:website:hotel_restaurant.report_res_order_bill
+msgid "Folio Number"
+msgstr "Número da Ficha de Cliente"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "Folio Number :"
+msgstr "Ficha de Cliente Número :"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_form
+#: model:ir.ui.menu,name:hotel_restaurant.menu_hotel_food_item
+#: view:website:hotel_restaurant.report_hotel_order_kot
+#: view:website:hotel_restaurant.report_order_bill
+#: view:website:hotel_restaurant.report_res_order_bill
+msgid "Food Item"
+msgstr "Alimento"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_hotel_order_kot
+msgid "Food Item List"
+msgstr "Lista de Alimentos"
+
+#. module: hotel_restaurant
+#: model:ir.ui.menu,name:hotel_restaurant.menu_action_hotel_menucard_type_view_form
+msgid "Food Item Types"
+msgstr "Tipos de Alimentos"
+
+#. module: hotel_restaurant
+#: model:ir.ui.menu,name:hotel_restaurant.menu_open_hotel_menucard_form
+msgid "Food Items"
+msgstr "Alimentos"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_form
+msgid "Food Manager"
+msgstr "Gestor de Alimentos"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_form
+msgid "Food Type"
+msgstr "Tipo de Alimento"
+
+#. module: hotel_restaurant
+#: model:ir.ui.menu,name:hotel_restaurant.menu_hotel_restaurent_food_category_action
+msgid "Foods Items by Type"
+msgstr "Alimentos por Tipo"
+
+#. module: hotel_restaurant
+#: model:ir.actions.act_window,name:hotel_restaurant.hotel_restaurent_food_category_action
+msgid "Foods by Category"
+msgstr "Alimentos por Categoria"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_res_table
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "From:"
+msgstr "De:"
+
+#. module: hotel_restaurant
+#: view:hotel.reservation.order:hotel_restaurant.view_hotel_reservation_order_form
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_form
+msgid "Generate KOT"
+msgstr "Gerar Bilhetes de Pedidos de Cozinha"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_search_new
+#: view:hotel.reservation.order:hotel_restaurant.view_hotel_reservation_order_search
+#: view:hotel.restaurant.kitchen.order.tickets:hotel_restaurant.view_hotel_restaurant_kitchen_order_search
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_search
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_search
+#: view:hotel.restaurant.tables:hotel_restaurant.view_hotel_restaurant_tables_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: hotel_restaurant
+#: model:ir.actions.act_window,name:hotel_restaurant.action_folio_rest_reservation
+msgid "Hotel Folio Order Wizard"
+msgstr "Wizard do Pedido da Ficha de Cliente do Hotel"
+
+#. module: hotel_restaurant
+#: model:ir.actions.act_window,name:hotel_restaurant.action_hotel_menucard_type_view_form
+msgid "Hotel Food Item Type"
+msgstr "Tipo de Alimento do Hotel"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard.type:hotel_restaurant.view_hotel_menucard_type_form
+#: view:hotel.menucard.type:hotel_restaurant.view_hotel_menucard_type_list
+msgid "Hotel Food Items Type"
+msgstr "Tipo de Alimentos do Hotel"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_form
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_search_new
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_tree
+#: model:ir.actions.act_window,name:hotel_restaurant.action_hotel_menucard_form
+#: model:ir.model,name:hotel_restaurant.model_hotel_menucard
+msgid "Hotel Menucard"
+msgstr "Menu do Hotel"
+
+#. module: hotel_restaurant
+#: view:hotel.folio:hotel_restaurant.view_hotelfolio1_form1_inherited
+msgid "Hotel Restaurant"
+msgstr "Restaurante do Hotel"
+
+#. module: hotel_restaurant
+#: field:folio.rest.reservation,id:0
+#: field:hotel.menucard,id:0
+#: field:hotel.menucard.type,id:0
+#: field:hotel.reservation.order,id:0
+#: field:hotel.restaurant.kitchen.order.tickets,id:0
+#: field:hotel.restaurant.order,id:0
+#: field:hotel.restaurant.order.list,id:0
+#: field:hotel.restaurant.reservation,id:0
+#: field:hotel.restaurant.tables,id:0
+#: field:report.hotel_restaurant.report_hotel_order_kot,id:0
+#: field:report.hotel_restaurant.report_res_table,id:0
+#: field:report.hotel_restaurant.report_reserv_order,id:0
+#: field:report.hotel_restaurant.report_rest_order,id:0
+#: field:wizard.hotel.restaurant,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: hotel_restaurant
+#: field:hotel.menucard,image:0
+msgid "Image"
+msgstr "Imagem"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_hotel_restaurant_kitchen_order_tickets
+#: model:ir.model,name:hotel_restaurant.model_hotel_restaurant_order
+#: model:ir.model,name:hotel_restaurant.model_hotel_restaurant_order_list
+msgid "Includes Hotel Restaurant Order"
+msgstr "Inclui Pedido do Restaurante do Hotel"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_hotel_restaurant_reservation
+msgid "Includes Hotel Restaurant Reservation"
+msgstr "Inclui Reserva do Restaurante do Hotel"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_hotel_restaurant_tables
+msgid "Includes Hotel Restaurant Table"
+msgstr "Inclui Mesa do Restaurante do Hotel"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_form
+msgid "Information"
+msgstr "Informação"
+
+#. module: hotel_restaurant
+#: field:product.category,ismenutype:0
+msgid "Is Menu Type"
+msgstr "É Tipo de Menu"
+
+#. module: hotel_restaurant
+#: field:product.product,ismenucard:0
+msgid "Is Menucard"
+msgstr "É Menu"
+
+#. module: hotel_restaurant
+#: field:hotel.reservation.order,is_folio:0
+#: field:hotel.restaurant.order,is_folio:0
+#: field:hotel.restaurant.reservation,is_folio:0
+msgid "Is a Hotel Guest??"
+msgstr "É um Hóspede do Hotel??"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard.type:hotel_restaurant.view_hotel_menucard_type_form
+#: field:hotel.restaurant.order.list,name:0
+msgid "Item Name"
+msgstr "Nome do Item"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_tree
+msgid "Item Rate"
+msgstr "Taxa do Item"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "Items"
+msgstr "Itens"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.kitchen.order.tickets:hotel_restaurant.view_hotel_restaurant_kitchen_order_tickets_form
+#: view:hotel.restaurant.kitchen.order.tickets:hotel_restaurant.view_hotel_restaurant_kitchen_order_tickets_tree
+msgid "KOT List"
+msgstr "Lista de Bilhetes de Pedidos de Cozinha"
+
+#. module: hotel_restaurant
+#: model:ir.ui.menu,name:hotel_restaurant.menu_open_view_hotel_restaurant_kitchen_order_tickets_form_tree
+#: view:website:hotel_restaurant.report_hotel_order_kot
+msgid "Kitchen Order Ticket"
+msgstr "Kitchen Order Ticket"
+
+#. module: hotel_restaurant
+#: field:hotel.restaurant.order.list,kot_order_list:0
+#: model:ir.actions.act_window,name:hotel_restaurant.open_view_hotel_restaurant_kitchen_order_tickets_form_tree
+#: model:ir.actions.report.xml,name:hotel_restaurant.report_hotel_res_order_kot
+msgid "Kitchen Order Tickets"
+msgstr "Bilhetes dos Pedidos de Cozinha"
+
+#. module: hotel_restaurant
+#: field:hotel.reservation.order,kitchen_id:0
+#: field:hotel.restaurant.order,kitchen_id:0
+msgid "Kitchen id"
+msgstr "Id da Cozinha"
+
+#. module: hotel_restaurant
+#: help:hotel.restaurant.kitchen.order.tickets,kot_list:0
+msgid "Kitchen order list"
+msgstr "Lista de Pedidos de Cozinha"
+
+#. module: hotel_restaurant
+#: field:folio.rest.reservation,write_uid:0
+#: field:hotel.menucard,write_uid:0
+#: field:hotel.menucard.type,write_uid:0
+#: field:hotel.reservation.order,write_uid:0
+#: field:hotel.restaurant.kitchen.order.tickets,write_uid:0
+#: field:hotel.restaurant.order,write_uid:0
+#: field:hotel.restaurant.order.list,write_uid:0
+#: field:hotel.restaurant.reservation,write_uid:0
+#: field:hotel.restaurant.tables,write_uid:0
+#: field:wizard.hotel.restaurant,write_uid:0
+msgid "Last Updated by"
+msgstr "Última Atualização por"
+
+#. module: hotel_restaurant
+#: field:folio.rest.reservation,write_date:0
+#: field:hotel.menucard,write_date:0
+#: field:hotel.menucard.type,write_date:0
+#: field:hotel.reservation.order,write_date:0
+#: field:hotel.restaurant.kitchen.order.tickets,write_date:0
+#: field:hotel.restaurant.order,write_date:0
+#: field:hotel.restaurant.order.list,write_date:0
+#: field:hotel.restaurant.reservation,write_date:0
+#: field:hotel.restaurant.tables,write_date:0
+#: field:wizard.hotel.restaurant,write_date:0
+msgid "Last Updated on"
+msgstr "Última Atualização em"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_form
+msgid "List of customer taxes applied on the perticular Food Item."
+msgstr "Lista de impostos do cliente aplicados no alimento em específico."
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_form
+msgid "List of supplier taxes applied on the perticular Food Item."
+msgstr "Lista de impostos do fornecedor aplicados no alimento em específico."
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "Net Total:"
+msgstr "Valor Líquido Total:"
+
+#. module: hotel_restaurant
+#: code:addons\hotel_restaurant\models\hotel_restaurant.py:364
+#: code:addons\hotel_restaurant\models\hotel_restaurant.py:546
+#, python-format
+msgid "No Order Given"
+msgstr "Nenhum Pedido Feito"
+
+#. module: hotel_restaurant
+#: code:addons\hotel_restaurant\models\hotel_restaurant.py:367
+#, python-format
+msgid "No Table Assigned "
+msgstr "Nenhuma Mesa Atribuída "
+
+#. module: hotel_restaurant
+#: view:hotel.folio:hotel_restaurant.view_hotelfolio1_form1_inherited
+#: view:hotel.reservation.order:hotel_restaurant.view_hotel_reservation_order_form
+#: view:hotel.reservation.order:hotel_restaurant.view_hotel_reservation_order_tree
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_form
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_tree
+msgid "Order"
+msgstr "Pedido"
+
+#. module: hotel_restaurant
+#: selection:hotel.reservation.order,state:0
+#: selection:hotel.restaurant.order,state:0
+#: selection:hotel.restaurant.reservation,state:0
+msgid "Order Created"
+msgstr "Pedido Criado"
+
+#. module: hotel_restaurant
+#: field:hotel.restaurant.order,o_date:0
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "Order Date"
+msgstr "Data do Pedido"
+
+#. module: hotel_restaurant
+#: model:ir.actions.act_window,name:hotel_restaurant.open_view_hotel_reservation_order_form_tree
+#: model:ir.actions.act_window,name:hotel_restaurant.open_view_hotel_restaurant_order_form_tree
+msgid "Order Generate"
+msgstr "Gerar Pedido"
+
+#. module: hotel_restaurant
+#: view:hotel.reservation.order:hotel_restaurant.view_hotel_reservation_order_form
+#: field:hotel.reservation.order,order_list:0
+#: view:hotel.restaurant.kitchen.order.tickets:hotel_restaurant.view_hotel_restaurant_kitchen_order_tickets_form
+#: field:hotel.restaurant.kitchen.order.tickets,kot_list:0
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_form
+#: field:hotel.restaurant.order,order_list:0
+#: view:website:hotel_restaurant.report_order_bill
+#: view:website:hotel_restaurant.report_res_order_bill
+msgid "Order List"
+msgstr "Lista de Pedidos"
+
+#. module: hotel_restaurant
+#: field:hotel.reservation.order,order_number:0
+msgid "Order No"
+msgstr "Pedido No"
+
+#. module: hotel_restaurant
+#: field:hotel.restaurant.kitchen.order.tickets,orderno:0
+#: field:hotel.restaurant.order,order_no:0
+#: view:website:hotel_restaurant.report_hotel_order_kot
+#: view:website:hotel_restaurant.report_order_bill
+#: view:website:hotel_restaurant.report_res_order_bill
+msgid "Order Number"
+msgstr "Número do Pedido"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "Order Number."
+msgstr "Pedido Número."
+
+#. module: hotel_restaurant
+#: view:folio.rest.reservation:hotel_restaurant.view_folio_rest_reservation
+msgid "Order Report"
+msgstr "Relatório do Pedido"
+
+#. module: hotel_restaurant
+#: view:hotel.folio:hotel_restaurant.view_hotelfolio1_form1_inherited
+#: view:hotel.reservation.order:hotel_restaurant.view_hotel_reservation_order_tree
+msgid "Order Total"
+msgstr "Total do Pedido"
+
+#. module: hotel_restaurant
+#: field:hotel.folio,hotel_reservation_order_ids:0
+#: field:hotel.folio,hotel_restaurant_order_ids:0
+#: model:ir.ui.menu,name:hotel_restaurant.menu_open_view_hotel_reservation_order_form_tree
+msgid "Orders"
+msgstr "Pedidos"
+
+#. module: hotel_restaurant
+#: code:addons\hotel_restaurant\models\hotel_restaurant.py:368
+#, python-format
+msgid "Please Assign a Table"
+msgstr "Por Favor Atribua uma Mesa"
+
+#. module: hotel_restaurant
+#: code:addons\hotel_restaurant\models\hotel_restaurant.py:365
+#: code:addons\hotel_restaurant\models\hotel_restaurant.py:547
+#, python-format
+msgid "Please Give an Order"
+msgstr "Por Favor Faça um Pedido"
+
+#. module: hotel_restaurant
+#: code:addons\hotel_restaurant\models\hotel_restaurant.py:184
+#, python-format
+msgid "Please Select Tables For Reservation"
+msgstr "Por Favor Selecione Mesas Para Reserva"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.hotel_manucard_kanban_view
+msgid "Price:"
+msgstr "Preço:"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_form
+msgid "Procurement"
+msgstr "Aquisição"
+
+#. module: hotel_restaurant
+#: field:hotel.menucard,product_id:0
+#: model:ir.model,name:hotel_restaurant.model_product_product
+msgid "Product"
+msgstr "Produto"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_product_category
+msgid "Product Category"
+msgstr "Categoria do Produto"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_form
+msgid "Purchase Description"
+msgstr "Descrição da Compra"
+
+#. module: hotel_restaurant
+#: field:hotel.restaurant.order.list,item_qty:0
+msgid "Qty"
+msgstr "Qtd"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_hotel_order_kot
+#: view:website:hotel_restaurant.report_order_bill
+#: view:website:hotel_restaurant.report_res_order_bill
+msgid "Quantity"
+msgstr "Quantidade"
+
+#. module: hotel_restaurant
+#: field:hotel.restaurant.order.list,item_rate:0
+#: view:website:hotel_restaurant.report_order_bill
+#: view:website:hotel_restaurant.report_res_order_bill
+msgid "Rate"
+msgstr "Taxa"
+
+#. module: hotel_restaurant
+#: model:ir.actions.act_window,name:hotel_restaurant.action_wizard_hotel_restaurant
+#: view:wizard.hotel.restaurant:hotel_restaurant.wizard_hotel_restaurant_form_view
+msgid "Reservation List"
+msgstr "Lista de Reserva"
+
+#. module: hotel_restaurant
+#: field:hotel.reservation.order,reservationno:0
+#: field:hotel.restaurant.reservation,reservation_id:0
+#: view:website:hotel_restaurant.report_res_table
+msgid "Reservation No"
+msgstr "Reserva No"
+
+#. module: hotel_restaurant
+#: field:hotel.restaurant.kitchen.order.tickets,resno:0
+msgid "Reservation Number"
+msgstr "Número da Reserva"
+
+#. module: hotel_restaurant
+#: view:hotel.reservation.order:hotel_restaurant.view_hotel_reservation_order_search
+#: field:hotel.restaurant.order.list,o_l:0
+#: model:ir.model,name:hotel_restaurant.model_hotel_reservation_order
+msgid "Reservation Order"
+msgstr "Pedido de Reserva"
+
+#. module: hotel_restaurant
+#: field:hotel.reservation.order,rest_id:0
+#: field:hotel.restaurant.order,rest_item_id:0
+msgid "Rest"
+msgstr "Descanso"
+
+#. module: hotel_restaurant
+#: model:ir.ui.menu,name:hotel_restaurant.hotel_restaurant_menu
+msgid "Restaurant"
+msgstr "Restaurante"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_search
+#: field:hotel.restaurant.order.list,o_list:0
+msgid "Restaurant Order"
+msgstr "Pedido do Restaurante"
+
+#. module: hotel_restaurant
+#: view:hotel.folio:hotel_restaurant.view_hotelfolio1_form1_inherited
+msgid "Restaurant Order Reservation Details"
+msgstr "Detalhes do Pedido de Reserva do Restaurante"
+
+#. module: hotel_restaurant
+#: view:folio.rest.reservation:hotel_restaurant.view_folio_rest_reservation
+msgid "Restaurant Orders"
+msgstr "Pedidos do Restaurante"
+
+#. module: hotel_restaurant
+#: view:hotel.folio:hotel_restaurant.view_hotelfolio1_form1_inherited
+msgid "Restaurant Orders Details"
+msgstr "Detalhes dos Pedidos do Restaurante"
+
+#. module: hotel_restaurant
+#: model:ir.ui.menu,name:hotel_restaurant.folio_rest_reservation_menu
+msgid "Restaurant Reports"
+msgstr "Relatórios do Restaurante"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_search
+msgid "Restaurant Reservation"
+msgstr "Reserva do Restaurante"
+
+#. module: hotel_restaurant
+#: view:folio.rest.reservation:hotel_restaurant.view_folio_rest_reservation
+msgid "Restaurant Reserved Order"
+msgstr "Pedido Reservado do Restaurante"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.kitchen.order.tickets:hotel_restaurant.view_hotel_restaurant_kitchen_order_search
+msgid "Restaurant kitchen Order"
+msgstr "Pedido da cozinha do restaurante"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_reserv_order
+msgid "Restaurants Orders Details"
+msgstr "Detalhes dos pedidos dos restaurantes"
+
+#. module: hotel_restaurant
+#: model:ir.actions.report.xml,name:hotel_restaurant.report_hotel_res_folio
+#: model:ir.actions.report.xml,name:hotel_restaurant.report_hotel_res_folio1
+msgid "Restaurants Reports"
+msgstr "Relatórios dos Restaurantes"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_rest_order
+msgid "Restaurants Reservation Order Details"
+msgstr "Detalhes do Pedido de Reserva dos Restaurantes"
+
+#. module: hotel_restaurant
+#: field:hotel.restaurant.kitchen.order.tickets,room_no:0
+#: field:hotel.restaurant.order,room_no:0
+#: field:hotel.restaurant.reservation,room_no:0
+msgid "Room No"
+msgstr "Quarto No"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "Room No :"
+msgstr "Quarto No :"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_search
+#: view:website:hotel_restaurant.report_hotel_order_kot
+#: view:website:hotel_restaurant.report_order_bill
+msgid "Room Number"
+msgstr "Número do Quarto"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_form
+msgid "Sale Description"
+msgstr "Descrição da Venda"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_hotel_order_kot
+msgid "Served By"
+msgstr "Servido Por"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_form
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_form
+msgid "Set to Draft"
+msgstr "Definir como Rascunho"
+
+#. module: hotel_restaurant
+#: field:folio.rest.reservation,date_start:0
+#: view:website:hotel_restaurant.report_res_table
+#: field:wizard.hotel.restaurant,date_start:0
+msgid "Start Date"
+msgstr "Data de Início"
+
+#. module: hotel_restaurant
+#: code:addons\hotel_restaurant\models\hotel_restaurant.py:266
+#, python-format
+msgid "Start Date Should be less             than the End Date!"
+msgstr "Data de Início tem de ser inferior             à Data de Fim!"
+
+#. module: hotel_restaurant
+#: field:hotel.restaurant.reservation,start_date:0
+msgid "Start Time"
+msgstr "Tempo de Início"
+
+#. module: hotel_restaurant
+#: field:hotel.reservation.order,state:0
+#: field:hotel.restaurant.order,state:0
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "State"
+msgstr "Estado"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_search
+msgid "States"
+msgstr "Estados"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_order_bill
+#: view:website:hotel_restaurant.report_res_order_bill
+msgid "Sub Total:"
+msgstr "Sub Total:"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_order_bill
+#: view:website:hotel_restaurant.report_res_order_bill
+msgid "SubTotal"
+msgstr "SubTotal"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_form
+msgid "Supplier Taxes"
+msgstr "Impostos de Fornecedores"
+
+#. module: hotel_restaurant
+#: view:hotel.menucard:hotel_restaurant.view_hotel_menucard_form
+msgid "Suppliers"
+msgstr "Fornecedores"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_form
+#: model:ir.ui.menu,name:hotel_restaurant.menu_open_view_hotel_restaurant_reservation_form_tree
+msgid "Table Booking"
+msgstr "Reserva de Mesa"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_order_bill
+#: view:website:hotel_restaurant.report_res_order_bill
+msgid "Table Information"
+msgstr "Informação da Mesa"
+
+#. module: hotel_restaurant
+#: view:hotel.reservation.order:hotel_restaurant.view_hotel_reservation_order_form
+#: view:hotel.restaurant.kitchen.order.tickets:hotel_restaurant.view_hotel_restaurant_kitchen_order_tickets_form
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_form
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_form
+msgid "Table List"
+msgstr "Lista de Mesas"
+
+#. module: hotel_restaurant
+#: field:hotel.reservation.order,table_no:0
+#: field:hotel.restaurant.kitchen.order.tickets,tableno:0
+#: field:hotel.restaurant.order,table_no:0
+#: field:hotel.restaurant.reservation,tableno:0
+#: field:hotel.restaurant.tables,name:0
+#: view:website:hotel_restaurant.report_hotel_order_kot
+msgid "Table Number"
+msgstr "Número da Mesa"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_form
+#: model:ir.ui.menu,name:hotel_restaurant.menu_open_view_hotel_restaurant_order_form_tree
+msgid "Table Order"
+msgstr "Pedido da Mesa"
+
+#. module: hotel_restaurant
+#: view:hotel.folio:hotel_restaurant.view_hotelfolio1_form1_inherited
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_tree
+msgid "Table Order Total"
+msgstr "Total do Pedido da Mesa"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_form
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_tree
+#: model:ir.actions.act_window,name:hotel_restaurant.open_view_hotel_restaurant_reservation_form_tree
+msgid "Table Reservation"
+msgstr "Reserva de Mesa"
+
+#. module: hotel_restaurant
+#: model:ir.actions.report.xml,name:hotel_restaurant.report_hotel_table_res
+#: model:ir.ui.menu,name:hotel_restaurant.wizard_list_menu
+#: view:website:hotel_restaurant.report_res_table
+#: view:wizard.hotel.restaurant:hotel_restaurant.wizard_hotel_restaurant_form_view
+msgid "Table Reservation List"
+msgstr "Lista de Reserva de Mesas"
+
+#. module: hotel_restaurant
+#: help:hotel.restaurant.kitchen.order.tickets,tableno:0
+msgid "Table reservation detail."
+msgstr "Detalhe da reserva de mesas."
+
+#. module: hotel_restaurant
+#: help:hotel.restaurant.reservation,tableno:0
+msgid "Table reservation detail. "
+msgstr "Detalhe da reserva de mesas. "
+
+#. module: hotel_restaurant
+#: model:ir.ui.menu,name:hotel_restaurant.menu_open_view_hotel_restaurant_tables_form_tree
+#: view:website:hotel_restaurant.report_reserv_order
+msgid "Tables"
+msgstr "Mesas"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.tables:hotel_restaurant.view_hotel_restaurant_tables_form
+#: view:hotel.restaurant.tables:hotel_restaurant.view_hotel_restaurant_tables_search
+#: view:hotel.restaurant.tables:hotel_restaurant.view_hotel_restaurant_tables_tree
+msgid "Tables Detail"
+msgstr "Detalhe das Mesas"
+
+#. module: hotel_restaurant
+#: model:ir.actions.act_window,name:hotel_restaurant.open_view_hotel_restaurant_tables_form_tree
+msgid "Tables Details"
+msgstr "Detalhes das Mesas"
+
+#. module: hotel_restaurant
+#: field:hotel.reservation.order,tax:0
+#: field:hotel.restaurant.order,tax:0
+msgid "Tax (%) "
+msgstr "Imposto (%) "
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_order_bill
+#: view:website:hotel_restaurant.report_res_order_bill
+msgid "Tax:"
+msgstr "Imposto:"
+
+#. module: hotel_restaurant
+#: help:hotel.menucard,image:0
+msgid "This field holds the image used as image for the product, limited to 1024x1024px."
+msgstr "Este campo possui a imagem usada como imagem para o produto, limitada a 1024x1024px."
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_res_table
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "To:"
+msgstr "Para:"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.reservation:hotel_restaurant.view_hotel_restaurant_reservation_search
+msgid "Today's Booking"
+msgstr "Reservas de Hoje"
+
+#. module: hotel_restaurant
+#: view:hotel.reservation.order:hotel_restaurant.view_hotel_reservation_order_search
+#: view:hotel.restaurant.kitchen.order.tickets:hotel_restaurant.view_hotel_restaurant_kitchen_order_search
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_search
+msgid "Today's Orders"
+msgstr "Pedidos de Hoje"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "Total"
+msgstr "Total"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_reserv_order
+#: view:website:hotel_restaurant.report_rest_order
+msgid "Total Orders"
+msgstr "Total de Pedidos"
+
+#. module: hotel_restaurant
+#: view:website:hotel_restaurant.report_order_bill
+#: view:website:hotel_restaurant.report_res_order_bill
+msgid "Total:"
+msgstr "Total:"
+
+#. module: hotel_restaurant
+#: view:hotel.reservation.order:hotel_restaurant.view_hotel_reservation_order_search
+#: field:hotel.reservation.order,waitername:0
+#: view:hotel.restaurant.kitchen.order.tickets:hotel_restaurant.view_hotel_restaurant_kitchen_order_search
+#: field:hotel.restaurant.kitchen.order.tickets,w_name:0
+#: field:hotel.restaurant.order,waiter_name:0
+#: view:website:hotel_restaurant.report_order_bill
+#: view:website:hotel_restaurant.report_res_order_bill
+msgid "Waiter Name"
+msgstr "Nome do Empregado de Mesa"
+
+#. module: hotel_restaurant
+#: code:addons\hotel_restaurant\models\hotel_restaurant.py:183
+#: code:addons\hotel_restaurant\models\hotel_restaurant.py:186
+#, python-format
+msgid "Warning"
+msgstr "Aviso"
+
+#. module: hotel_restaurant
+#: field:folio.rest.reservation,check:0
+msgid "With Details"
+msgstr "Com Detalhes"
+
+#. module: hotel_restaurant
+#: code:addons\hotel_restaurant\models\hotel_restaurant.py:186
+#, python-format
+msgid "You tried to confirm                 reservation with table those already reserved in this                 reservation period"
+msgstr "Você tentou confirmar a                 reserva duma mesa que já se encontra reservada neste                 período de reserva"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_search
+msgid "date"
+msgstr "data"
+
+#. module: hotel_restaurant
+#: view:hotel.reservation.order:hotel_restaurant.view_hotel_reservation_order_form
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_form
+msgid "generate Bill"
+msgstr "gerar Conta"
+
+#. module: hotel_restaurant
+#: model:ir.model,name:hotel_restaurant.model_hotel_folio
+msgid "hotel folio new"
+msgstr "nova ficha de cliente do hotel"
+
+#. module: hotel_restaurant
+#: help:hotel.reservation.order,is_folio:0
+#: help:hotel.restaurant.order,is_folio:0
+msgid "is customer residein hotel or not"
+msgstr "o cliente reside no hotel ou não"
+
+#. module: hotel_restaurant
+#: view:folio.rest.reservation:hotel_restaurant.view_folio_rest_reservation
+#: view:wizard.hotel.restaurant:hotel_restaurant.wizard_hotel_restaurant_form_view
+msgid "or"
+msgstr "ou"
+
+#. module: hotel_restaurant
+#: field:hotel.restaurant.reservation,state:0
+msgid "state"
+msgstr "estado"
+
+#. module: hotel_restaurant
+#: view:hotel.restaurant.order:hotel_restaurant.view_hotel_restaurant_order_search
+msgid "waiter name"
+msgstr "nome do empregado de mesa"
+

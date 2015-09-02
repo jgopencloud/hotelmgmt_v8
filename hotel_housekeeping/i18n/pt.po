@@ -1,0 +1,429 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* hotel_housekeeping
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0-20150309\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-02 14:59+0000\n"
+"PO-Revision-Date: 2015-09-02 14:59+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping,activity_lines:0
+#: model:ir.ui.menu,name:hotel_housekeeping.menu_open_h_activity_form
+#: view:website:hotel_housekeeping.report_housekeeping
+msgid "Activities"
+msgstr "Atividades"
+
+#. module: hotel_housekeeping
+#: model:ir.ui.menu,name:hotel_housekeeping.menu_hotel_activity
+msgid "Activity"
+msgstr "Atividade"
+
+#. module: hotel_housekeeping
+#: model:ir.actions.report.xml,name:hotel_housekeeping.report_housekeeping_activity_detail
+msgid "Activity Detail"
+msgstr "Detalhe da Atividade"
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping.wizard,date_end:0
+msgid "Activity End Date"
+msgstr "Data de Fim da Atividade"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_form
+msgid "Activity Lines"
+msgstr "Linhas da Atividade"
+
+#. module: hotel_housekeeping
+#: model:ir.actions.act_window,name:hotel_housekeeping.action_hotel_housekeeping_wizard
+msgid "Activity List"
+msgstr "Lista da Atividade"
+
+#. module: hotel_housekeeping
+#: view:hotel.activity:hotel_housekeeping.view_h_activity_form
+#: view:hotel.housekeeping.activity.type:hotel_housekeeping.view_hotel_housekeeping_activity_type_form
+msgid "Activity Name"
+msgstr "Nome da Atividade"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping.wizard:hotel_housekeeping.hotel_housekeeping_wizard_form_view
+#: model:ir.ui.menu,name:hotel_housekeeping.wizard_activity_menu
+msgid "Activity Report"
+msgstr "Relatório da Atividade"
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping.wizard,date_start:0
+msgid "Activity Start Date"
+msgstr "Data de Início da Atividade"
+
+#. module: hotel_housekeeping
+#: model:ir.model,name:hotel_housekeeping.model_hotel_housekeeping_activity_type
+msgid "Activity Type"
+msgstr "Tipo de Atividade"
+
+#. module: hotel_housekeeping
+#: model:ir.ui.menu,name:hotel_housekeeping.menu_action_hotel_housekeeping_activity_type_view_form
+msgid "Activity Types"
+msgstr "Tipos de Atividade"
+
+#. module: hotel_housekeeping
+#: selection:hotel.housekeeping,quality:0
+msgid "Bad"
+msgstr "Mau"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_form
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_search
+#: view:hotel.housekeeping.wizard:hotel_housekeeping.hotel_housekeeping_wizard_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: hotel_housekeeping
+#: selection:hotel.housekeeping,state:0
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: hotel_housekeeping
+#: view:hotel.activity:hotel_housekeeping.view_h_activity_search
+msgid "Catagory"
+msgstr "Categoria"
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping.activity.type,activity_id:0
+msgid "Category"
+msgstr "Categoria"
+
+#. module: hotel_housekeeping
+#: selection:hotel.housekeeping,clean_type:0
+msgid "Check-In"
+msgstr "Check-In"
+
+#. module: hotel_housekeeping
+#: selection:hotel.housekeeping,clean_type:0
+msgid "Check-Out"
+msgstr "Check-Out"
+
+#. module: hotel_housekeeping
+#: help:hotel.housekeeping.activities,dirty:0
+msgid "Checked if the housekeeping activityresults as Dirty."
+msgstr "Marcado se a atividade doméstica der o resultado de Sujo."
+
+#. module: hotel_housekeeping
+#: help:hotel.housekeeping.activities,clean:0
+msgid "Checked if the housekeepingactivity results as Clean."
+msgstr "Marcado se a atividade doméstica der o resultado de Limpo."
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_form
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_search
+#: selection:hotel.housekeeping,state:0
+#: field:hotel.housekeeping.activities,clean:0
+msgid "Clean"
+msgstr "Limpo"
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping.activities,clean_end_time:0
+#: view:website:hotel_housekeeping.report_housekeeping
+msgid "Clean End Time"
+msgstr "Hora de Fim da Limpeza"
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping.activities,clean_start_time:0
+#: view:website:hotel_housekeeping.report_housekeeping
+msgid "Clean Start Time"
+msgstr "Hora de Início da Limpeza"
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping,clean_type:0
+msgid "Clean Type"
+msgstr "Tipo de Limpeza"
+
+#. module: hotel_housekeeping
+#: field:hotel.activity,create_uid:0
+#: field:hotel.housekeeping,create_uid:0
+#: field:hotel.housekeeping.activities,create_uid:0
+#: field:hotel.housekeeping.activity.type,create_uid:0
+#: field:hotel.housekeeping.wizard,create_uid:0
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: hotel_housekeeping
+#: field:hotel.activity,create_date:0
+#: field:hotel.housekeeping,create_date:0
+#: field:hotel.housekeeping.activities,create_date:0
+#: field:hotel.housekeeping.activity.type,create_date:0
+#: field:hotel.housekeeping.wizard,create_date:0
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: hotel_housekeeping
+#: selection:hotel.housekeeping,clean_type:0
+msgid "Daily"
+msgstr "Diário"
+
+#. module: hotel_housekeeping
+#: view:website:hotel_housekeeping.report_housekeeping
+msgid "Date"
+msgstr "Data"
+
+#. module: hotel_housekeeping
+#: help:hotel.housekeeping,activity_lines:0
+msgid "Detail of housekeeping activities"
+msgstr "Detalhe das atividades domésticas"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_search
+#: selection:hotel.housekeeping,state:0
+#: field:hotel.housekeeping.activities,dirty:0
+msgid "Dirty"
+msgstr "Sujo"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_form
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_search
+#: selection:hotel.housekeeping,state:0
+msgid "Done"
+msgstr "Concluído"
+
+#. module: hotel_housekeeping
+#: view:website:hotel_housekeeping.report_housekeeping
+msgid "Duration"
+msgstr "Duração"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_search
+msgid "Filters"
+msgstr "Filtros"
+
+#. module: hotel_housekeeping
+#: view:website:hotel_housekeeping.report_housekeeping
+msgid "For Room:-"
+msgstr "Para o Quarto:-"
+
+#. module: hotel_housekeeping
+#: view:website:hotel_housekeeping.report_housekeeping
+msgid "From:"
+msgstr "De:"
+
+#. module: hotel_housekeeping
+#: selection:hotel.housekeeping,quality:0
+msgid "Good"
+msgstr "Bom"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_search
+msgid "Group By"
+msgstr "Agrupar Por"
+
+#. module: hotel_housekeeping
+#: view:hotel.activity:hotel_housekeeping.view_h_activity_search
+msgid "Group By..."
+msgstr "Agrupar Por..."
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping.activities,housekeeper:0
+msgid "Housekeeper"
+msgstr "Empregada"
+
+#. module: hotel_housekeeping
+#: view:website:hotel_housekeeping.report_housekeeping
+msgid "Housekeeper Name"
+msgstr "Nome da Empregada"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_form
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_search
+#: model:ir.actions.act_window,name:hotel_housekeeping.open_hotel_housekeeping_form_tree
+msgid "Housekeeping"
+msgstr "Serviço de Limpeza"
+
+#. module: hotel_housekeeping
+#: model:ir.model,name:hotel_housekeeping.model_hotel_housekeeping_activities
+msgid "Housekeeping Activities "
+msgstr "Atividades Domésticas "
+
+#. module: hotel_housekeeping
+#: view:hotel.activity:hotel_housekeeping.view_h_activity_form
+#: view:hotel.activity:hotel_housekeeping.view_h_activity_search
+#: view:hotel.activity:hotel_housekeeping.view_h_activity_tree
+#: field:hotel.housekeeping.activities,activity_name:0
+#: model:ir.actions.act_window,name:hotel_housekeeping.action_h_activity_form
+#: model:ir.model,name:hotel_housekeeping.model_hotel_activity
+msgid "Housekeeping Activity"
+msgstr "Atividade Doméstica"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping.activity.type:hotel_housekeeping.view_hotel_housekeeping_activity_type_form
+#: view:hotel.housekeeping.activity.type:hotel_housekeeping.view_hotel_housekeeping_activity_type_list
+#: model:ir.actions.act_window,name:hotel_housekeeping.action_hotel_housekeeping_activity_type_view_form
+msgid "Housekeeping Activity Types"
+msgstr "Tipos de Atividade Doméstica"
+
+#. module: hotel_housekeeping
+#: model:ir.ui.menu,name:hotel_housekeeping.menu_housekeeping
+#: model:ir.ui.menu,name:hotel_housekeeping.menu_open_hotel_housekeeping_form_tree
+msgid "Housekeeping Services"
+msgstr "Serviços Domésticos"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_tree
+msgid "Housekeeping12"
+msgstr "Serviço de Limpeza12"
+
+#. module: hotel_housekeeping
+#: field:hotel.activity,id:0
+#: field:hotel.housekeeping,id:0
+#: field:hotel.housekeeping.activities,id:0
+#: field:hotel.housekeeping.activity.type,id:0
+#: field:hotel.housekeeping.wizard,id:0
+#: field:report.hotel_housekeeping.report_housekeeping,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_form
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_search
+#: selection:hotel.housekeeping,state:0
+msgid "Inspect"
+msgstr "Inspecionar"
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping,inspect_date_time:0
+msgid "Inspect Date Time"
+msgstr "Data de Início da Inspeção"
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping,inspector:0
+msgid "Inspector"
+msgstr "Inspector"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_search
+msgid "Inspector Name"
+msgstr "Nome do Inspector"
+
+#. module: hotel_housekeeping
+#: help:hotel.housekeeping,quality:0
+msgid "Inspector inspect the room and mark as Bad, Good or Ok. "
+msgstr "O inspector faz a inspeção do quarto e marca-o como Mau, Bom ou Ok. "
+
+#. module: hotel_housekeeping
+#: field:product.category,isactivitytype:0
+msgid "Is Activity Type"
+msgstr "É Tipo de Atividade"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_form
+msgid "Is Clean?"
+msgstr "Está limpo?"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_form
+msgid "Is Dirty?"
+msgstr "Está Sujo?"
+
+#. module: hotel_housekeeping
+#: field:hotel.activity,write_uid:0
+#: field:hotel.housekeeping,write_uid:0
+#: field:hotel.housekeeping.activities,write_uid:0
+#: field:hotel.housekeeping.activity.type,write_uid:0
+#: field:hotel.housekeeping.wizard,write_uid:0
+msgid "Last Updated by"
+msgstr "Última Atualização por"
+
+#. module: hotel_housekeeping
+#: field:hotel.activity,write_date:0
+#: field:hotel.housekeeping,write_date:0
+#: field:hotel.housekeeping.activities,write_date:0
+#: field:hotel.housekeeping.activity.type,write_date:0
+#: field:hotel.housekeeping.wizard,write_date:0
+msgid "Last Updated on"
+msgstr "Última Atualização em"
+
+#. module: hotel_housekeeping
+#: selection:hotel.housekeeping,quality:0
+msgid "Ok"
+msgstr "Ok"
+
+#. module: hotel_housekeeping
+#: field:hotel.activity,h_id:0
+msgid "Product"
+msgstr "Produto"
+
+#. module: hotel_housekeeping
+#: model:ir.model,name:hotel_housekeeping.model_product_category
+msgid "Product Category"
+msgstr "Categoria do Produto"
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping,quality:0
+msgid "Quality"
+msgstr "Qualidade"
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping.activities,a_list:0
+#: model:ir.model,name:hotel_housekeeping.model_hotel_housekeeping
+msgid "Reservation"
+msgstr "Reserva"
+
+#. module: hotel_housekeeping
+#: view:website:hotel_housekeeping.report_housekeeping
+msgid "Room Activities Report"
+msgstr "Relatório de Atividades do Quarto"
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping,room_no:0
+#: field:hotel.housekeeping.activities,room_id:0
+#: field:hotel.housekeeping.wizard,room_no:0
+msgid "Room No"
+msgstr "Quarto No"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping:hotel_housekeeping.view_hotel_housekeeping_form
+msgid "Set to Dirty"
+msgstr "Definir como Sujo"
+
+#. module: hotel_housekeeping
+#: code:addons\hotel_housekeeping\models\hotel_housekeeping.py:176
+#, python-format
+msgid "Start Date Should be             less than the End Date!"
+msgstr "Data de Início Tem de Ser             menor que a Data de Fim!"
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping,state:0
+msgid "State"
+msgstr "Estado"
+
+#. module: hotel_housekeeping
+#: view:website:hotel_housekeeping.report_housekeeping
+msgid "To:"
+msgstr "Para:"
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping.activities,today_date:0
+msgid "Today Date"
+msgstr "Data Atual"
+
+#. module: hotel_housekeeping
+#: field:hotel.housekeeping,current_date:0
+msgid "Today's Date"
+msgstr "Data Atual"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping.wizard:hotel_housekeeping.hotel_housekeeping_wizard_form_view
+msgid "form_string"
+msgstr "form_string"
+
+#. module: hotel_housekeeping
+#: view:hotel.housekeeping.wizard:hotel_housekeeping.hotel_housekeeping_wizard_form_view
+msgid "or"
+msgstr "ou"
+

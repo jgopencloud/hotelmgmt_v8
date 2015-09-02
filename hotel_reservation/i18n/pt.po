@@ -1,0 +1,1076 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* hotel_reservation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0-20150309\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-27 17:54+0000\n"
+"PO-Revision-Date: 2015-08-27 17:54+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hotel_reservation
+#: model:email.template,body_html:hotel_reservation.email_template_hotel_reservation
+msgid "\n"
+"	            <p>Hello <strong>${object.partner_id.name}</strong>,</p>\n"
+"                <p>This is to confirm your booking for a room at the <strong>${object.warehouse_id.name} Hotel</strong>,&nbsp;\n"
+"                   % if object.warehouse_id.partner_id.city: \n"
+"                   <strong>${object.warehouse_id.partner_id.city}</strong>,&nbsp;\n"
+"                   % endif \n"
+"                   % if object.warehouse_id.partner_id.country_id.name:\n"
+"                   <strong>${object.warehouse_id.partner_id.country_id.name}</strong>.&nbsp;\n"
+"                   % endif\n"
+"                   On behalf of the hotel, we would like to express our gratitude to you for choosing our services. \n"
+"                   Please find all the details regarding the confirmation of the reservation on Date <strong>${object.date_order}</strong> are listed below:\n"
+"                </p> \n"
+"                &nbsp;&nbsp;<strong>Details :</strong><br/>\n"
+"                <p style=\"border-left: 1px solid #8e0000; margin-left: 30px;\">\n"
+"                &nbsp;&nbsp;Name Of Guest : <strong>${object.partner_id.name}</strong><br />\n"
+"                &nbsp;&nbsp;Date Of Arrival : <strong>${object.checkin}</strong><br />\n"
+"                &nbsp;&nbsp;Date Of Departure : <strong>${object.checkout}</strong><br />\n"
+"                &nbsp;&nbsp;Reservation Number : <strong>${object.reservation_no}</strong><br />\n"
+"                &nbsp;&nbsp;Number Of Persons : <strong>${object.adults}</strong> Adults and <strong>${object.children}</strong> Childrens<br />\n"
+"                </p>\n"
+"                &nbsp;&nbsp;<strong>Rooms Rates Per Night :</strong><br/>\n"
+"                <br/>\n"
+"                <table border=\"1\" cellpadding=\"4\" style=\"margin-left: 30px;\">\n"
+"                        <tr>\n"
+"                            <th>Room No</th>\n"
+"                            <th>Amount</th>\n"
+"                        </tr>\n"
+"                        %for line in object.reservation_line:\n"
+"                            %for line2 in line.reserve:\n"
+"                                <tr >\n"
+"                                    <td>${line2.product_id.name}</td>\n"
+"                                    <td>${line2.product_id.list_price}</td>\n"
+"                                </tr>\n"
+"                            %endfor\n"
+"                        %endfor\n"
+"                </table>\n"
+"               <br /> \n"
+"               <p>\n"
+"We would appreciate it if you could let us know in case there are any changes in your schedule or program. \n"
+"In case you require check-in facilities at an earlier time due to flight changes or any other reasons, kindly inform us. \n"
+"We are sure that you will find our services satisfactory. In case you need to cancel your reservation, \n"
+"please Reply or Call us within 24 hours before the day of the check-in. \n"
+"We look forward to providing you quality services at our hotel. \n"
+"               </p>\n"
+"               <br />\n"
+"<strong>Kind Regards<strong>,<br />\n"
+"<br />\n"
+"<strong>Reservations Team <strong><br />\n"
+"[<strong>${object.warehouse_id.name} Hotel</strong>]<br />\n"
+"% if object.warehouse_id.partner_id.street:\n"
+"<strong>${object.warehouse_id.partner_id.street}</strong><br />\n"
+"% endif\n"
+"% if object.warehouse_id.partner_id.city:\n"
+"<strong>${object.warehouse_id.partner_id.city}</strong>,<br />\n"
+"% endif\n"
+"% if object.warehouse_id.partner_id.country_id.name:\n"
+"<strong>${object.warehouse_id.partner_id.country_id.name}</strong>,<br />\n"
+"% endif\n"
+"<br />\n"
+"% if object.warehouse_id.partner_id.website:\n"
+"<strong>${object.warehouse_id.partner_id.website}</strong> <br />\n"
+"% endif\n"
+"    		 "
+msgstr "\n"
+"	            <p>Olá <strong>${object.partner_id.name}</strong>,</p>\n"
+"                <p>Este email serve para confirmar a sua reserva de quarto no Hotel <strong>${object.warehouse_id.name}</strong>,&nbsp;\n"
+"                   % if object.warehouse_id.partner_id.city: \n"
+"                   <strong>${object.warehouse_id.partner_id.city}</strong>,&nbsp;\n"
+"                   % endif \n"
+"                   % if object.warehouse_id.partner_id.country_id.name:\n"
+"                   <strong>${object.warehouse_id.partner_id.country_id.name}</strong>.&nbsp;\n"
+"                   % endif\n"
+"                   Em nome do hotel, gostaria de expressar-lhe a nossa gratidão pela escolha dos nossos serviços. \n"
+"                   Por favor verifique todos os detalhes relativos à confirmação da reserva na Data <strong>${object.date_order}</strong> :\n"
+"                </p> \n"
+"                &nbsp;&nbsp;<strong>Detalhes :</strong><br/>\n"
+"                <p style=\"border-left: 1px solid #8e0000; margin-left: 30px;\">\n"
+"                &nbsp;&nbsp;Nome do Hóspede : <strong>${object.partner_id.name}</strong><br />\n"
+"                &nbsp;&nbsp;Data de Chegada : <strong>${object.checkin}</strong><br />\n"
+"                &nbsp;&nbsp;Data de Partida : <strong>${object.checkout}</strong><br />\n"
+"                &nbsp;&nbsp;Número da Reserva : <strong>${object.reservation_no}</strong><br />\n"
+"                &nbsp;&nbsp;Número de Pessoas : <strong>${object.adults}</strong> Adultos e <strong>${object.children}</strong> Crianças<br />\n"
+"                </p>\n"
+"                &nbsp;&nbsp;<strong>Taxas de Quartos por Noite :</strong><br/>\n"
+"                <br/>\n"
+"                <table border=\"1\" cellpadding=\"4\" style=\"margin-left: 30px;\">\n"
+"                        <tr>\n"
+"                            <th>Quarto No</th>\n"
+"                            <th>Montante</th>\n"
+"                        </tr>\n"
+"                        %for line in object.reservation_line:\n"
+"                            %for line2 in line.reserve:\n"
+"                                <tr >\n"
+"                                    <td>${line2.product_id.name}</td>\n"
+"                                    <td>${line2.product_id.list_price}</td>\n"
+"                                </tr>\n"
+"                            %endfor\n"
+"                        %endfor\n"
+"                </table>\n"
+"               <br /> \n"
+"               <p>\n"
+"Agradecíamos que entrasse em contacto conosco caso haja alguma alteração na sua agenda ou programa. \n"
+"Caso necessite de utilizar as instalações de check-in mais cedo devido a alterações de voo ou a qualquer outra razão, por favor informe-nos. \n"
+"Temos a certeza de que irá achar os nossos serviços satisfatórios. Case necessite de cancelar a sua reserva, \n"
+"por favor responda por Email ou Telefone dentro de 24 horas antes do dia do check-in. \n"
+"Aguardamos ansiosamente por lhe fornecer serviços de qualidade no nosso hotel. \n"
+"               </p>\n"
+"               <br />\n"
+"<strong>Com os melhores cumprimentos<strong>,<br />\n"
+"<br />\n"
+"<strong>Equipa de Reservas <strong><br />\n"
+"[<strong>Hotel ${object.warehouse_id.name}</strong>]<br />\n"
+"% if object.warehouse_id.partner_id.street:\n"
+"<strong>${object.warehouse_id.partner_id.street}</strong><br />\n"
+"% endif\n"
+"% if object.warehouse_id.partner_id.city:\n"
+"<strong>${object.warehouse_id.partner_id.city}</strong>,<br />\n"
+"% endif\n"
+"% if object.warehouse_id.partner_id.country_id.name:\n"
+"<strong>${object.warehouse_id.partner_id.country_id.name}</strong>,<br />\n"
+"% endif\n"
+"<br />\n"
+"% if object.warehouse_id.partner_id.website:\n"
+"<strong>${object.warehouse_id.partner_id.website}</strong> <br />\n"
+"% endif\n"
+"    		 "
+
+#. module: hotel_reservation
+#: model:email.template,body_html:hotel_reservation.email_template_reservation_reminder_24hrs
+msgid "\n"
+"                <p><left>Hello <strong>${object.partner_id.name}</strong>.</left></p>\n"
+"                <p><left>Greetings from <strong>${object.warehouse_id.name} Hotel</strong>.</left></p> \n"
+"                <p>This email is for reminding you that the Reservation at the <strong>${object.warehouse_id.name} Hotel</strong>.&nbsp;\n"
+"                   % if object.warehouse_id.partner_id.city: \n"
+"                   <strong>${object.warehouse_id.partner_id.city}</strong>,&nbsp;\n"
+"                   % endif \n"
+"                   % if object.warehouse_id.partner_id.country_id.name:\n"
+"                   <strong>${object.warehouse_id.partner_id.country_id.name}</strong>.&nbsp;\n"
+"                   % endif\n"
+"                    Your checkin has been confirmed on Date <strong>${object.date_order}</strong> . \n"
+"                   Please find all the details regarding to the reservation as listed below:\n"
+"                </p>\n"
+"                <br/>\n"
+"                &nbsp;&nbsp;<strong>Details :</strong><br/>\n"
+"                <p style=\"border-left: 1px solid #8e0000; margin-left: 30px;\">\n"
+"                &nbsp;&nbsp;Name Of Guest : <strong>${object.partner_id.name}</strong><br />\n"
+"                &nbsp;&nbsp;Date Of Arrival : <strong>${object.checkin}</strong><br />\n"
+"                &nbsp;&nbsp;Date Of Departure : <strong>${object.checkout}</strong><br />\n"
+"                &nbsp;&nbsp;Reservation Number : <strong>${object.reservation_no}</strong><br />\n"
+"                &nbsp;&nbsp;Number Of Persons : <strong>${object.adults}</strong> Adults and <strong>${object.children}</strong> Childrens<br />\n"
+"                </p>\n"
+"                &nbsp;&nbsp;<strong>Rooms Rates Per Night :</strong><br/>\n"
+"                <br/>\n"
+"                <table border=\"1\" cellpadding=\"4\" style=\"margin-left: 30px;\">\n"
+"                        <tr>\n"
+"                            <th>Room No</th>\n"
+"                            <th>Amount</th>\n"
+"                        </tr>\n"
+"                        %for line in object.reservation_line:\n"
+"                            %for line2 in line.reserve:\n"
+"                                <tr >\n"
+"                                    <td>${line2.product_id.name}</td>\n"
+"                                    <td>${line2.product_id.list_price}</td>\n"
+"                                </tr>\n"
+"                            %endfor\n"
+"                        %endfor\n"
+"                </table>\n"
+"               <br /> \n"
+"               <p>\n"
+"We would appreciate it if you could let us know in case there are any changes in your schedule or program.\n"
+"Please inform us immediately, so that we can refund your money according to Hotel policies.\n"
+"We are sure that you will find our services satisfactory. We look forward to providing you quality services at our hotel. \n"
+"               </p>\n"
+"               <br />\n"
+"<strong>Best Regards<strong>,<br />\n"
+"<br />\n"
+"<strong>Reservations Team <strong><br />\n"
+"[<strong>${object.warehouse_id.name} Hotel</strong>]<br />\n"
+"% if object.warehouse_id.partner_id.street:\n"
+"<strong>${object.warehouse_id.partner_id.street}</strong><br />\n"
+"% endif\n"
+"% if object.warehouse_id.partner_id.city:\n"
+"<strong>${object.warehouse_id.partner_id.city}</strong>,<br />\n"
+"% endif\n"
+"% if object.warehouse_id.partner_id.country_id.name:\n"
+"<strong>${object.warehouse_id.partner_id.country_id.name}</strong>,<br />\n"
+"% endif\n"
+"<br />\n"
+"% if object.warehouse_id.partner_id.website:\n"
+"<strong>${object.warehouse_id.partner_id.website}</strong> <br />\n"
+"% endif\n"
+"             "
+msgstr "\n"
+"                <p><left>Olá <strong>${object.partner_id.name}</strong>.</left></p>\n"
+"                <p><left>Saudações do Hotel <strong>${object.warehouse_id.name}</strong>.</left></p> \n"
+"                <p>Este email serve para relembrá-lo da reserva no Hotel <strong>${object.warehouse_id.name}</strong>.&nbsp;\n"
+"                   % if object.warehouse_id.partner_id.city: \n"
+"                   <strong>${object.warehouse_id.partner_id.city}</strong>,&nbsp;\n"
+"                   % endif \n"
+"                   % if object.warehouse_id.partner_id.country_id.name:\n"
+"                   <strong>${object.warehouse_id.partner_id.country_id.name}</strong>.&nbsp;\n"
+"                   % endif\n"
+"                    O seu checkin foi confirmado na Data <strong>${object.date_order}</strong> . \n"
+"                   Por favor verifique todos os detalhes relativos à sua reserva:\n"
+"                </p>\n"
+"                <br/>\n"
+"                &nbsp;&nbsp;<strong>Detalhes :</strong><br/>\n"
+"                <p style=\"border-left: 1px solid #8e0000; margin-left: 30px;\">\n"
+"                &nbsp;&nbsp;Nome do Hóspede : <strong>${object.partner_id.name}</strong><br />\n"
+"                &nbsp;&nbsp;Data de Chegada : <strong>${object.checkin}</strong><br />\n"
+"                &nbsp;&nbsp;Data de Partida : <strong>${object.checkout}</strong><br />\n"
+"                &nbsp;&nbsp;Número da Reserva : <strong>${object.reservation_no}</strong><br />\n"
+"                &nbsp;&nbsp;Número de Pessoas : <strong>${object.adults}</strong> Adultos e <strong>${object.children}</strong> Crianças<br />\n"
+"                </p>\n"
+"                &nbsp;&nbsp;<strong>Taxas de Quartos por Noite :</strong><br/>\n"
+"                <br/>\n"
+"                <table border=\"1\" cellpadding=\"4\" style=\"margin-left: 30px;\">\n"
+"                        <tr>\n"
+"                            <th>Quarto No</th>\n"
+"                            <th>Montante</th>\n"
+"                        </tr>\n"
+"                        %for line in object.reservation_line:\n"
+"                            %for line2 in line.reserve:\n"
+"                                <tr >\n"
+"                                    <td>${line2.product_id.name}</td>\n"
+"                                    <td>${line2.product_id.list_price}</td>\n"
+"                                </tr>\n"
+"                            %endfor\n"
+"                        %endfor\n"
+"                </table>\n"
+"               <br /> \n"
+"               <p>\n"
+"Agradecíamos que entrasse em contacto conosco caso haja alguma alteração na sua agenda ou programa.\n"
+"Por favor informe-nos imediatamente, de modo a que seja possível reembolsá-lo de acordo com as políticas do Hotel.\n"
+"Temos a certeza de que irá achar os nossos serviços satisfatórios. Aguardamos ansiosamente por lhe fornecer serviços de qualidade no nosso hotel. \n"
+"               </p>\n"
+"               <br />\n"
+"<strong>Com os melhores cumprimentos<strong>,<br />\n"
+"<br />\n"
+"<strong>Equipa de Reservas <strong><br />\n"
+"[<strong>Hotel ${object.warehouse_id.name}</strong>]<br />\n"
+"% if object.warehouse_id.partner_id.street:\n"
+"<strong>${object.warehouse_id.partner_id.street}</strong><br />\n"
+"% endif\n"
+"% if object.warehouse_id.partner_id.city:\n"
+"<strong>${object.warehouse_id.partner_id.city}</strong>,<br />\n"
+"% endif\n"
+"% if object.warehouse_id.partner_id.country_id.name:\n"
+"<strong>${object.warehouse_id.partner_id.country_id.name}</strong>,<br />\n"
+"% endif\n"
+"<br />\n"
+"% if object.warehouse_id.partner_id.website:\n"
+"<strong>${object.warehouse_id.partner_id.website}</strong> <br />\n"
+"% endif\n"
+"             "
+
+#. module: hotel_reservation
+#: view:website:hotel_reservation.report_checkin_qweb
+#: view:website:hotel_reservation.report_checkout_qweb
+#: view:website:hotel_reservation.report_roomres_qweb
+msgid "#No"
+msgstr "#Não"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,adults:0
+msgid "Adults"
+msgstr "Adultos"
+
+#. module: hotel_reservation
+#: selection:hotel.room.reservation.line,state:0
+msgid "Assigned"
+msgstr "Atribuído"
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:463
+#, python-format
+msgid "Before choosing a room,\n"
+" You have to select                              a Check in date or a Check out date in                              the reservation form."
+msgstr "Antes de escolher um quarto,\n"
+" Tem de selecionar                              uma data de Check in ou uma data de Check out no                              formulário de reserva."
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_search
+#: selection:hotel.reservation,state:0
+#: view:hotel.reservation.wizard:hotel_reservation.hotel_reservation_wizard_form_view
+#: view:quick.room.reservation:hotel_reservation.quick_room_reservation_form_view
+#: view:wizard.make.folio:hotel_reservation.make_folio_wizard_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: hotel_reservation
+#: field:quick.room.reservation,check_in:0
+msgid "Check In"
+msgstr "Check In"
+
+#. module: hotel_reservation
+#: field:hotel.room.reservation.line,check_in:0
+msgid "Check In Date"
+msgstr "Data de Check In"
+
+#. module: hotel_reservation
+#: field:quick.room.reservation,check_out:0
+msgid "Check Out"
+msgstr "Check Out"
+
+#. module: hotel_reservation
+#: field:hotel.room.reservation.line,check_out:0
+msgid "Check Out Date"
+msgstr "Data de Check Out"
+
+#. module: hotel_reservation
+#: view:website:hotel_reservation.report_checkin_qweb
+#: view:website:hotel_reservation.report_roomres_qweb
+msgid "Check-In Date"
+msgstr "Data de Check-In"
+
+#. module: hotel_reservation
+#: view:website:hotel_reservation.report_checkin_qweb
+msgid "Check-In Guest List"
+msgstr "Lista de Convidados de Check-In"
+
+#. module: hotel_reservation
+#: view:website:hotel_reservation.report_checkout_qweb
+#: view:website:hotel_reservation.report_roomres_qweb
+msgid "Check-Out Date"
+msgstr "Data de Check-Out"
+
+#. module: hotel_reservation
+#: view:website:hotel_reservation.report_checkout_qweb
+msgid "Check-Out Guest List"
+msgstr "Lista de Convidados de Check-Out"
+
+#. module: hotel_reservation
+#: model:ir.actions.report.xml,name:hotel_reservation.hotel_checkin_details
+msgid "CheckIn Detail"
+msgstr "Detalhe de CheckIn"
+
+#. module: hotel_reservation
+#: view:hotel.reservation.wizard:hotel_reservation.hotel_reservation_wizard_form_view
+msgid "CheckIn List"
+msgstr "Lista de CheckIn"
+
+#. module: hotel_reservation
+#: model:ir.actions.report.xml,name:hotel_reservation.hotel_checkout_details
+msgid "CheckOut Detail"
+msgstr "Detalhe de CheckOut"
+
+#. module: hotel_reservation
+#: view:hotel.reservation.wizard:hotel_reservation.hotel_reservation_wizard_form_view
+msgid "CheckOut List"
+msgstr "Lista de CheckOut"
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:149
+#, python-format
+msgid "Checkin date should be                 greater than the current date."
+msgstr "A data de Checkin tem de ser                 superior à data atual."
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:168
+#, python-format
+msgid "Checkout date                 should be greater than Checkin date."
+msgstr "A data de Checkout                 tem de ser superior à data de Checkin."
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:725
+#, python-format
+msgid "Checkout date should be greater                                  than Checkin date."
+msgstr "A data de Checkout tem de ser superior                                  à data de Checkin."
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:334
+#, python-format
+msgid "Checkout date should be greater                                  than the Checkin date."
+msgstr "A data de Checkout tem de ser superior                                  à data de Checkin."
+
+#. module: hotel_reservation
+#: field:hotel.reservation,children:0
+msgid "Children"
+msgstr "Crianças"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_form
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_search
+#: selection:hotel.reservation,state:0
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_form
+#: view:wizard.make.folio:hotel_reservation.make_folio_wizard_form_view
+msgid "Create Folio"
+msgstr "Criar Ficha de Cliente"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,create_uid:0
+#: field:hotel.reservation.wizard,create_uid:0
+#: field:hotel.room.reservation.line,create_uid:0
+#: field:hotel_reservation.line,create_uid:0
+#: field:quick.room.reservation,create_uid:0
+#: field:room.reservation.summary,create_uid:0
+#: field:wizard.make.folio,create_uid:0
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,create_date:0
+#: field:hotel.reservation.wizard,create_date:0
+#: field:hotel.room.reservation.line,create_date:0
+#: field:hotel_reservation.line,create_date:0
+#: field:quick.room.reservation,create_date:0
+#: field:room.reservation.summary,create_date:0
+#: field:wizard.make.folio,create_date:0
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.hotel_calendar_view
+msgid "Current Reservation"
+msgstr "Reserva Atual"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_search
+msgid "Current Reservations"
+msgstr "Reservas Atuais"
+
+#. module: hotel_reservation
+#: field:quick.room.reservation,partner_id:0
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: hotel_reservation
+#: field:room.reservation.summary,date_from:0
+msgid "Date From"
+msgstr "Data De"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,date_order:0
+msgid "Date Ordered"
+msgstr "Data Pedida"
+
+#. module: hotel_reservation
+#: field:room.reservation.summary,date_to:0
+msgid "Date To"
+msgstr "Data Para"
+
+#. module: hotel_reservation
+#: help:hotel.reservation,message_last_post:0
+msgid "Date of the last message posted on the record."
+msgstr "Data da última mensagem publicada no arquivo."
+
+#. module: hotel_reservation
+#: field:hotel.reservation,partner_shipping_id:0
+#: field:quick.room.reservation,partner_shipping_id:0
+msgid "Delivery Address"
+msgstr "Endereço de Entrega"
+
+#. module: hotel_reservation
+#: help:hotel.reservation,partner_shipping_id:0
+msgid "Delivery addressfor current reservation. "
+msgstr "Endereço de entrega para a reserva atual. "
+
+#. module: hotel_reservation
+#: view:wizard.make.folio:hotel_reservation.make_folio_wizard_form_view
+msgid "Do you really want to create the Folio ?"
+msgstr "Deseja mesmo criar a Ficha de Cliente ?"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_search
+#: selection:hotel.reservation,state:0
+msgid "Done"
+msgstr "Concluído"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_search
+#: selection:hotel.reservation,state:0
+msgid "Draft"
+msgstr "Rascunho"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,dummy:0
+msgid "Dummy"
+msgstr "Manequim"
+
+#. module: hotel_reservation
+#: model:ir.actions.act_window,name:hotel_reservation.action_hotel_reservation_template
+msgid "Email Templates"
+msgstr "Templates de Email"
+
+#. module: hotel_reservation
+#: field:hotel.reservation.wizard,date_end:0
+msgid "End Date"
+msgstr "Data de Fim"
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:333
+#, python-format
+msgid "Error"
+msgstr "Erro"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,checkin:0
+msgid "Expected-Date-Arrival"
+msgstr "Data-Chegada-Prevista"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,checkout:0
+msgid "Expected-Date-Departure"
+msgstr "Data-Partida-Prevista"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,folio_id:0
+msgid "Folio"
+msgstr "Ficha de Cliente"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,message_follower_ids:0
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: hotel_reservation
+#. openerp-web
+#: code:addons\hotel_reservation\static\src\js\hotel_room_summary.js:9
+#, python-format
+msgid "Form"
+msgstr "Formulário"
+
+#. module: hotel_reservation
+#: view:website:hotel_reservation.report_checkin_qweb
+#: view:website:hotel_reservation.report_checkout_qweb
+#: view:website:hotel_reservation.report_maxroom_qweb
+#: view:website:hotel_reservation.report_roomres_qweb
+msgid "From:"
+msgstr "De:"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_search
+msgid "Group By"
+msgstr "Agrupar Por"
+
+#. module: hotel_reservation
+#: field:wizard.make.folio,grouped:0
+msgid "Group the Folios"
+msgstr "Agrupar as Fichas de Clientes"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_search
+#: field:hotel.reservation,partner_id:0
+#: view:website:hotel_reservation.report_checkin_qweb
+#: view:website:hotel_reservation.report_checkout_qweb
+#: view:website:hotel_reservation.report_roomres_qweb
+msgid "Guest Name"
+msgstr "Nome do Hóspede"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_form
+msgid "History"
+msgstr "Histórico"
+
+#. module: hotel_reservation
+#: help:hotel.reservation,message_summary:0
+msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "Mantém o sumário de Conversa (número de mensagens, ...). Este sumário está em formato html de forma a ser inserido em vistas de kanban."
+
+#. module: hotel_reservation
+#: field:hotel.reservation,warehouse_id:0
+#: field:quick.room.reservation,warehouse_id:0
+msgid "Hotel"
+msgstr "Hotel"
+
+#. module: hotel_reservation
+#: model:email.template,subject:hotel_reservation.email_template_hotel_reservation
+msgid "Hotel Reservation Detail"
+msgstr "Detalhe da Reserva do Hotel"
+
+#. module: hotel_reservation
+#: model:email.template,subject:hotel_reservation.email_template_reservation_reminder_24hrs
+msgid "Hotel Reservation Reminder"
+msgstr "Lembrete da Reserva do Hotel
+
+#. module: hotel_reservation
+#: model:ir.ui.menu,name:hotel_reservation.wizard_res_menu
+msgid "Hotel Reservation Report"
+msgstr "Relatório da Reserva do Hotel"
+
+#. module: hotel_reservation
+#: model:ir.model,name:hotel_reservation.model_hotel_room
+msgid "Hotel Room"
+msgstr "Quarto do Hotel"
+
+#. module: hotel_reservation
+#: model:ir.model,name:hotel_reservation.model_hotel_room_reservation_line
+msgid "Hotel Room Reservation"
+msgstr "Reserva do Quarto do Hotel"
+
+#. module: hotel_reservation
+#: help:hotel.reservation,reservation_line:0
+msgid "Hotel room reservation details."
+msgstr "Detalhes da Reserva do Quarto do Hotel."
+
+#. module: hotel_reservation
+#: field:hotel.reservation,id:0
+#: field:hotel.reservation.wizard,id:0
+#: field:hotel.room.reservation.line,id:0
+#: field:hotel_reservation.line,id:0
+#: field:quick.room.reservation,id:0
+#: field:report.hotel_reservation.report_checkin_qweb,id:0
+#: field:report.hotel_reservation.report_checkout_qweb,id:0
+#: field:report.hotel_reservation.report_maxroom_qweb,id:0
+#: field:report.hotel_reservation.report_roomres_qweb,id:0
+#: field:room.reservation.summary,id:0
+#: field:wizard.make.folio,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: hotel_reservation
+#: help:hotel.reservation,message_unread:0
+msgid "If checked new messages require your attention."
+msgstr "Se estiverem marcadas novas mensagens requerem a sua atenção."
+
+#. module: hotel_reservation
+#: field:hotel.reservation,partner_invoice_id:0
+#: field:quick.room.reservation,partner_invoice_id:0
+msgid "Invoice Address"
+msgstr "Endereço da Fatura"
+
+#. module: hotel_reservation
+#: help:hotel.reservation,partner_invoice_id:0
+msgid "Invoice address for current reservation."
+msgstr "Endereço da fatura para a reserva atual."
+
+#. module: hotel_reservation
+#: field:hotel.reservation,message_is_follower:0
+msgid "Is a Follower"
+msgstr "É um Seguidor"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,message_last_post:0
+msgid "Last Message Date"
+msgstr "Data da Última Mensagem"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,write_uid:0
+#: field:hotel.reservation.wizard,write_uid:0
+#: field:hotel.room.reservation.line,write_uid:0
+#: field:hotel_reservation.line,write_uid:0
+#: field:quick.room.reservation,write_uid:0
+#: field:room.reservation.summary,write_uid:0
+#: field:wizard.make.folio,write_uid:0
+msgid "Last Updated by"
+msgstr "Última Atualização por"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,write_date:0
+#: field:hotel.reservation.wizard,write_date:0
+#: field:hotel.room.reservation.line,write_date:0
+#: field:hotel_reservation.line,write_date:0
+#: field:quick.room.reservation,write_date:0
+#: field:room.reservation.summary,write_date:0
+#: field:wizard.make.folio,write_date:0
+msgid "Last Updated on"
+msgstr "Última Atualização em"
+
+#. module: hotel_reservation
+#: field:hotel_reservation.line,line_id:0
+msgid "Line id"
+msgstr "id da Linha"
+
+#. module: hotel_reservation
+#: help:hotel.reservation,adults:0
+msgid "List of adults there in guest list. "
+msgstr "Lista de adultos presentes na lista de convidados. "
+
+#. module: hotel_reservation
+#: model:ir.actions.act_window,name:hotel_reservation.act_make_folio
+msgid "Make Folios"
+msgstr "Fazer Fichas de Clientes"
+
+#. module: hotel_reservation
+#: view:website:hotel_reservation.report_maxroom_qweb
+msgid "Max Room Used List"
+msgstr "Lista de Máximo de Quartos Utilizados"
+
+#. module: hotel_reservation
+#: model:ir.actions.report.xml,name:hotel_reservation.hotel_maxroom_details
+msgid "MaxRoom Detail"
+msgstr "Detalhe de MaxRoom"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,message_ids:0
+msgid "Messages"
+msgstr "Mensagens"
+
+#. module: hotel_reservation
+#: help:hotel.reservation,message_ids:0
+msgid "Messages and communication history"
+msgstr "Histórico de mensagens e comunicação"
+
+#. module: hotel_reservation
+#: field:hotel_reservation.line,name:0
+msgid "Name"
+msgstr "Nome"
+
+#. module: hotel_reservation
+#: view:website:hotel_reservation.report_maxroom_qweb
+msgid "No of Times used"
+msgstr "No de Vezes utilizado"
+
+#. module: hotel_reservation
+#: help:hotel.reservation,children:0
+msgid "Number of children there in guest list."
+msgstr "Número de crianças presentes na lista de convidados."
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_search
+msgid "Order By Month"
+msgstr "Ordenar Por Mês"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,partner_order_id:0
+#: field:quick.room.reservation,partner_order_id:0
+msgid "Ordering Contact"
+msgstr "Contacto de Pedido"
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:562
+#, python-format
+msgid "Please Check Rooms Status                                  for %s."
+msgstr "Por Favor Verifique a Situação do seu Quarto                                  para %s."
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:638
+#, python-format
+msgid "Please Check Time period Date                                  From can't be greater than Date To !"
+msgstr "Por Favor Verifique o Perído de Tempo Data                                  De não pode ser superior à Data Para !"
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:121
+#, python-format
+msgid "Please Select Rooms                     For Reservation."
+msgstr "Por Favor Selecione Quartos                     Para Reservar."
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:117
+#, python-format
+msgid "Please Select Rooms                 For Reservation."
+msgstr "Por Favor Selecione Quartos                Para Reservar."
+
+#. module: hotel_reservation
+#: help:hotel.reservation,pricelist_id:0
+msgid "Pricelist for current reservation."
+msgstr "Lista de preços para a reserva atual."
+
+#. module: hotel_reservation
+#: view:quick.room.reservation:hotel_reservation.quick_room_reservation_form_view
+msgid "Quick Reservation"
+msgstr "Reserva Rápida"
+
+#. module: hotel_reservation
+#: model:ir.model,name:hotel_reservation.model_quick_room_reservation
+msgid "Quick Room Reservation"
+msgstr "Reserva Rápida de Quarto"
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:613
+#, python-format
+msgid "Reconcile Write-Off"
+msgstr "Desconto"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.hotel_gantt_view
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_form
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_graph
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_search
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_tree
+#: field:hotel.room.reservation.line,reservation_id:0
+#: model:ir.model,name:hotel_reservation.model_hotel_reservation
+msgid "Reservation"
+msgstr "Reserva"
+
+#. module: hotel_reservation
+#: field:hotel.folio,reservation_id:0
+msgid "Reservation Id"
+msgstr "Id da Reserva"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_form
+#: field:hotel.reservation,reservation_line:0
+#: model:ir.model,name:hotel_reservation.model_hotel_reservation_line
+msgid "Reservation Line"
+msgstr "Linha de Reserva"
+
+#. module: hotel_reservation
+#: view:hotel.reservation.wizard:hotel_reservation.hotel_reservation_wizard_form_view
+#: model:ir.actions.act_window,name:hotel_reservation.action_hotel_reservation_wizard
+#: view:website:hotel_reservation.report_roomres_qweb
+msgid "Reservation List"
+msgstr "Lista de Reserva"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_form
+#: field:hotel.reservation,reservation_no:0
+msgid "Reservation No"
+msgstr "Reserva No"
+
+#. module: hotel_reservation
+#: view:room.reservation.summary:hotel_reservation.room_reservation_summary_form_view
+msgid "Reservation Summary"
+msgstr "Sumário da Reserva"
+
+#. module: hotel_reservation
+#: model:ir.actions.act_window,name:hotel_reservation.action_hotel_reservation_tree_all
+#: model:ir.ui.menu,name:hotel_reservation.menu_action_hotel_reservation_tree_all
+#: model:ir.ui.menu,name:hotel_reservation.menu_hotel_reservation
+msgid "Reservations"
+msgstr "Reservas"
+
+#. module: hotel_reservation
+#: model:ir.ui.menu,name:hotel_reservation.menu_action_hotel_reservation_summary
+msgid "Reservations Summary"
+msgstr "Sumário das Reservas"
+
+#. module: hotel_reservation
+#: field:hotel_reservation.line,reserve:0
+msgid "Reserve"
+msgstr "Reservar"
+
+#. module: hotel_reservation
+#: field:quick.room.reservation,room_id:0
+msgid "Room"
+msgstr "Quarto"
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:127
+#, python-format
+msgid "Room Capacity                         Exceeded \n"
+" Please Select Rooms According to                         Members Accomodation."
+msgstr "Capacidade do Quarto                         Excedida \n"
+" Por Favor Selecione Quartos de Acordo com a                        Acomodação dos Membros."
+
+#. module: hotel_reservation
+#: view:website:hotel_reservation.report_roomres_qweb
+msgid "Room Details"
+msgstr "Detalhes do Quarto"
+
+#. module: hotel_reservation
+#: view:website:hotel_reservation.report_checkin_qweb
+#: view:website:hotel_reservation.report_checkout_qweb
+#: view:website:hotel_reservation.report_maxroom_qweb
+msgid "Room No"
+msgstr "Quarto No"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_form
+msgid "Room Number"
+msgstr "Número do Quarto"
+
+#. module: hotel_reservation
+#: field:hotel.room,room_reservation_line_ids:0
+msgid "Room Reserv Line"
+msgstr "Linha de Reserva do Quarto"
+
+#. module: hotel_reservation
+#: view:hotel.room:hotel_reservation.view_hotel_room_form_inherited
+msgid "Room Reservation"
+msgstr "Reserva do Quarto"
+
+#. module: hotel_reservation
+#: model:ir.actions.report.xml,name:hotel_reservation.hotel_roomres_details
+msgid "Room Reservation Detail"
+msgstr "Detalhe da Reserva do Quarto"
+
+#. module: hotel_reservation
+#: view:hotel.room:hotel_reservation.view_hotel_room_form_inherited
+msgid "Room Reservation Line"
+msgstr "Linha da Reserva do Quarto"
+
+#. module: hotel_reservation
+#: view:room.reservation.summary:hotel_reservation.room_reservation_summary_form_view
+msgid "Room Reservation Summary"
+msgstr "Sumário da Reserva do Quarto"
+
+#. module: hotel_reservation
+#: model:ir.actions.act_window,name:hotel_reservation.action_hotel_reservation_summary
+msgid "Room Reservations Summary"
+msgstr "Sumário das Reservas do Quarto"
+
+#. module: hotel_reservation
+#: field:hotel.room.reservation.line,state:0
+msgid "Room Status"
+msgstr "Estado do Quarto"
+
+#. module: hotel_reservation
+#: view:room.reservation.summary:hotel_reservation.room_reservation_summary_form_view
+#: field:room.reservation.summary,room_summary:0
+msgid "Room Summary"
+msgstr "Sumário do Quarto"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_form
+#: field:hotel_reservation.line,categ_id:0
+#: view:website:hotel_reservation.report_checkin_qweb
+#: view:website:hotel_reservation.report_checkout_qweb
+msgid "Room Type"
+msgstr "Tipo de Quarto"
+
+#. module: hotel_reservation
+#: view:hotel.reservation.wizard:hotel_reservation.hotel_reservation_wizard_form_view
+msgid "Room Used Maximum"
+msgstr "Máximo do Quarto Utilizado"
+
+#. module: hotel_reservation
+#: field:hotel.room.reservation.line,room_id:0
+msgid "Room id"
+msgstr "Id do Quarto"
+
+#. module: hotel_reservation
+#: view:hotel.room:hotel_reservation.view_hotel_room_form_inherited
+msgid "Room line"
+msgstr "Linha do Quarto"
+
+#. module: hotel_reservation
+#: model:ir.model,name:hotel_reservation.model_room_reservation_summary
+msgid "Room reservation summary"
+msgstr "Sumário da reserva do quarto"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_form
+msgid "Rooms"
+msgstr "Quartos"
+
+#. module: hotel_reservation
+#: view:quick.room.reservation:hotel_reservation.quick_room_reservation_form_view
+msgid "Save"
+msgstr "Guardar"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,pricelist_id:0
+msgid "Scheme"
+msgstr "Esquema"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_form
+msgid "Select Room"
+msgstr "Selecionar Quarto"
+
+#. module: hotel_reservation
+#: view:hotel.reservation:hotel_reservation.view_hotel_reservation_form
+msgid "Send Reservation Email"
+msgstr "Enviar Email de Reserva"
+
+#. module: hotel_reservation
+#: field:hotel.reservation.wizard,date_start:0
+msgid "Start Date"
+msgstr "Data de Início"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,state:0
+msgid "State"
+msgstr "Estado"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,message_summary:0
+msgid "Summary"
+msgstr "Sumário"
+
+#. module: hotel_reservation
+#: field:room.reservation.summary,summary_header:0
+msgid "Summary Header"
+msgstr "Cabeçalho do Sumário"
+
+#. module: hotel_reservation
+#: view:room.reservation.summary:hotel_reservation.room_reservation_summary_form_view
+msgid "Summary Period"
+msgstr "Período do Sumário"
+
+#. module: hotel_reservation
+#: help:hotel.reservation,partner_order_id:0
+msgid "The name and address of the contact that requested the order or quotation."
+msgstr "The name and address of the contact that requested the order or quotation."
+
+#. module: hotel_reservation
+#: view:website:hotel_reservation.report_checkin_qweb
+#: view:website:hotel_reservation.report_checkout_qweb
+#: view:website:hotel_reservation.report_maxroom_qweb
+#: view:website:hotel_reservation.report_roomres_qweb
+msgid "To:"
+msgstr "Para:"
+
+#. module: hotel_reservation
+#: selection:hotel.room.reservation.line,state:0
+msgid "Unassigned"
+msgstr "Não Atribuído"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,message_unread:0
+msgid "Unread Messages"
+msgstr "Mensagens Não Lidas"
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:637
+#, python-format
+msgid "User Error!"
+msgstr "Erro de Utilizador!"
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:149
+#: code:addons\hotel_reservation\models\hotel_reservation.py:168
+#: code:addons\hotel_reservation\models\hotel_reservation.py:228
+#: code:addons\hotel_reservation\models\hotel_reservation.py:462
+#: code:addons\hotel_reservation\models\hotel_reservation.py:724
+#, python-format
+msgid "Warning"
+msgstr "Aviso"
+
+#. module: hotel_reservation
+#: field:hotel.reservation,website_message_ids:0
+msgid "Website Messages"
+msgstr "Mensagens de Website"
+
+#. module: hotel_reservation
+#: help:hotel.reservation,website_message_ids:0
+msgid "Website communication history"
+msgstr "Histórico de comunicação de website"
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:560
+#, python-format
+msgid "Wrong Entry"
+msgstr "Entrada Errada"
+
+#. module: hotel_reservation
+#: code:addons\hotel_reservation\models\hotel_reservation.py:228
+#, python-format
+msgid "You tried to confirm                 reservation with room those already reserved in this                 reservation period"
+msgstr "Você tentou confirmar                 uma reserva de um quarto já reservado neste                 período de reserva"
+
+#. module: hotel_reservation
+#: model:ir.model,name:hotel_reservation.model_hotel_folio
+msgid "hotel folio new"
+msgstr "nova ficha de cliente do hotel"
+
+#. module: hotel_reservation
+#: view:wizard.make.folio:hotel_reservation.make_folio_wizard_form_view
+msgid "or"
+msgstr "ou"
+
+#. module: hotel_reservation
+#: field:quick.room.reservation,pricelist_id:0
+msgid "pricelist"
+msgstr "lista de preços"
+
+#. module: hotel_reservation
+#: view:room.reservation.summary:hotel_reservation.room_reservation_summary_form_view
+msgid "to"
+msgstr "para"
+

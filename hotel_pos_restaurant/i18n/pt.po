@@ -1,0 +1,225 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* hotel_pos_restaurant
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0-20150309\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-27 17:39+0000\n"
+"PO-Revision-Date: 2015-08-27 17:39+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "---------------------------------------------------------------------\n"
+"	                            -------------------------------------------------------------------------------------------------------------"
+msgstr "---------------------------------------------------------------------\n"
+"	                            -------------------------------------------------------------------------------------------------------------"
+
+#. module: hotel_pos_restaurant
+#: view:hotel.folio:hotel_pos_restaurant.view_hotelfolio2_form2_inherited
+msgid "Amount total"
+msgstr "Montante Total"
+
+#. module: hotel_pos_restaurant
+#: view:order.report.wizard:hotel_pos_restaurant.view_hotel_order_wizard
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "CheckIN"
+msgstr "CheckIN"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "CheckOut"
+msgstr "CheckOut"
+
+#. module: hotel_pos_restaurant
+#: field:order.report.wizard,create_uid:0
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: hotel_pos_restaurant
+#: field:order.report.wizard,create_date:0
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "Customer Name"
+msgstr "Nome do Cliente"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "Customer Name :"
+msgstr "Nome do Cliente :"
+
+#. module: hotel_pos_restaurant
+#: field:order.report.wizard,date_end:0
+msgid "End Date"
+msgstr "Data de Fim"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "Folio No."
+msgstr "Ficha de Cliente No."
+
+#. module: hotel_pos_restaurant
+#: field:pos.order,folio_id:0
+msgid "Folio Number"
+msgstr "Número da Ficha de Cliente"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "Folio Number :"
+msgstr "Ficha de Cliente Number :"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "From:"
+msgstr "De:"
+
+#. module: hotel_pos_restaurant
+#: model:ir.actions.act_window,name:hotel_pos_restaurant.hotel_order_wizard
+msgid "Hotel Folio Order Wizard"
+msgstr "Wizard do Pedido da Ficha de Cliente do Hotel"
+
+#. module: hotel_pos_restaurant
+#: model:ir.actions.report.xml,name:hotel_pos_restaurant.report_hotel_pos_order
+msgid "Hotel Folio Pos Order"
+msgstr "Pedido do Pos da Ficha de Cliente do Hotel "
+
+#. module: hotel_pos_restaurant
+#: field:order.report.wizard,id:0
+#: field:report.hotel_pos_restaurant.report_folio_pos,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "Items"
+msgstr "Itens"
+
+#. module: hotel_pos_restaurant
+#: field:order.report.wizard,write_uid:0
+msgid "Last Updated by"
+msgstr "Última Atualização por"
+
+#. module: hotel_pos_restaurant
+#: field:order.report.wizard,write_date:0
+msgid "Last Updated on"
+msgstr "Última Atualização em"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "Net Total:"
+msgstr "Valor Líquido Total:"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "Order Date"
+msgstr "Data do Pedido"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "Order Number."
+msgstr "Número do Pedido."
+
+#. module: hotel_pos_restaurant
+#: view:order.report.wizard:hotel_pos_restaurant.view_hotel_order_wizard
+msgid "Order Report"
+msgstr "Relatório do Pedido"
+
+#. module: hotel_pos_restaurant
+#: field:hotel.folio,folio_pos_order_ids:0
+msgid "Orders"
+msgstr "Pedidos"
+
+#. module: hotel_pos_restaurant
+#: view:hotel.folio:hotel_pos_restaurant.view_hotelfolio2_form2_inherited
+msgid "POS Orders Details"
+msgstr "Detalhes dos Pedidos POS"
+
+#. module: hotel_pos_restaurant
+#: view:hotel.folio:hotel_pos_restaurant.view_hotelfolio2_form2_inherited
+msgid "POS Restaurant"
+msgstr "Restaurante POS"
+
+#. module: hotel_pos_restaurant
+#: model:ir.model,name:hotel_pos_restaurant.model_pos_order
+msgid "Point of Sale"
+msgstr "Ponto de Venda"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "Pos Order Details"
+msgstr "Detalhes do Pedido Pos"
+
+#. module: hotel_pos_restaurant
+#: model:ir.ui.menu,name:hotel_pos_restaurant.wizard_order_menu
+msgid "Pos Order Report"
+msgstr "Relatório do Pedido Pos"
+
+#. module: hotel_pos_restaurant
+#: view:order.report.wizard:hotel_pos_restaurant.view_hotel_order_wizard
+msgid "Print Pos Order"
+msgstr "Imprimir Pedido Pos"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "Room No :"
+msgstr "Quarto No :"
+
+#. module: hotel_pos_restaurant
+#: field:pos.order,room_no:0
+msgid "Room Number"
+msgstr "Número do Quarto"
+
+#. module: hotel_pos_restaurant
+#: field:order.report.wizard,date_start:0
+msgid "Start Date"
+msgstr "Data de Início"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "State"
+msgstr "Estado"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "To:"
+msgstr "Para:"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "Total"
+msgstr "Total"
+
+#. module: hotel_pos_restaurant
+#: view:website:hotel_pos_restaurant.report_folio_pos
+msgid "Total Orders"
+msgstr "Total Pedidos"
+
+#. module: hotel_pos_restaurant
+#: field:order.report.wizard,check:0
+msgid "With Details"
+msgstr "Com Detalhes"
+
+#. module: hotel_pos_restaurant
+#: model:ir.model,name:hotel_pos_restaurant.model_hotel_folio
+msgid "hotel folio new"
+msgstr "nova ficha de cliente do hotel"
+
+#. module: hotel_pos_restaurant
+#: view:order.report.wizard:hotel_pos_restaurant.view_hotel_order_wizard
+msgid "or"
+msgstr "ou"
+
